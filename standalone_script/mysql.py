@@ -15,9 +15,9 @@ db_config = app_config.get("db")
 # }
 
 ssl_option = {
-    "key": "/path/to/key.pem",
-    "cert": "/path/to/cert.pem",
-    "ca": "/path/to/ca.pem"
+    "ssl_key": "/path/to/key.pem",
+    "ssl_cert": "/path/to/cert.pem",
+    "ssl_ca": "/path/to/ca.pem"
 }
 
 try:
